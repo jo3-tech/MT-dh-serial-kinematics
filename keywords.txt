@@ -1,0 +1,64 @@
+######################################################
+# Syntax Colouring Map For MT-dh-serial-kinematics
+######################################################
+
+######################################################
+# Datatypes (KEYWORD1)
+######################################################
+
+######################################################
+# Methods and Functions (KEYWORD2)
+######################################################
+
+Multiply	KEYWORD2
+Add	KEYWORD2
+Subtract	KEYWORD2
+Transpose	KEYWORD2
+Scale	KEYWORD2
+Invert	KEYWORD2
+rotx	KEYWORD2
+trotx	KEYWORD2
+roty	KEYWORD2
+troty	KEYWORD2
+rotz	KEYWORD2
+trotz	KEYWORD2
+rotxyz	KEYWORD2
+trotxyz	KEYWORD2
+rotzyx	KEYWORD2
+trotzyx	KEYWORD2
+transl	KEYWORD2
+atan3	KEYWORD2
+rad2deg	KEYWORD2
+deg2rad	KEYWORD2
+print_link	KEYWORD2
+get_Tm	KEYWORD2
+get_a	KEYWORD2
+print_linkChain	KEYWORD2
+print_qCurrent	KEYWORD2
+print_TmCurrent	KEYWORD2
+get_noOfLinks	KEYWORD2
+get_links	KEYWORD2
+set_qCurrent	KEYWORD2
+set_qCurrentValue	KEYWORD2
+get_qCurrent	KEYWORD2
+get_qCurrentValue	KEYWORD2
+get_TmCurrent	KEYWORD2
+set_TmCurrentPosition	KEYWORD2
+get_TmCurrentPosition	KEYWORD2
+set_TmCurrentOrientation	KEYWORD2
+multiply_TmCurrentByTm	KEYWORD2
+fKine	KEYWORD2
+fKineWithBaseAndTool	KEYWORD2
+updateTmToolInverse	KEYWORD2
+get_TmTool	KEYWORD2
+get_TmToolInverse	KEYWORD2
+setZoffset	KEYWORD2
+get_zOffset	KEYWORD2
+setToolTransformPosition	KEYWORD2
+setToolTransformPositionToZero	KEYWORD2
+
+######################################################
+# Constants (LITERAL1)
+######################################################
+
+pi	LITERAL1
