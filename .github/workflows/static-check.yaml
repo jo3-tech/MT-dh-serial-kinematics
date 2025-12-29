@@ -1,0 +1,14 @@
+name: Static check
+on: 
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  static-check:
+    name: Static check
+    uses: Morgritech/MT-github-workflows/.github/workflows/arduino-cpp-lib-static-check.yaml@1.0.0
+    with:
+      run-job: submit

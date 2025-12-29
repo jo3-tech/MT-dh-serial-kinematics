@@ -1,0 +1,12 @@
+name: Build examples
+on: 
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  build-examples:
+    name: Build examples
+    uses: Morgritech/MT-github-workflows/.github/workflows/arduino-cpp-lib-examples-build.yaml@1.0.0
